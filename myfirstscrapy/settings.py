@@ -67,7 +67,7 @@ FEED_EXPORT_ENCODING = 'utf-8'
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    #'myfirstscrapy.pipelines.MyfirstscrapyPipeline': 300
-   'scrapyelasticsearch.scrapyelasticsearch.ElasticSearchPipeline':500
+   #'scrapyelasticsearch.scrapyelasticsearch.ElasticSearchPipeline':500
 }
 
 ELASTICSEARCH_SERVER = ['localhost'] 
